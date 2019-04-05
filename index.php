@@ -38,6 +38,10 @@
       case '/become-intern' :
           require __DIR__ . '/views/become-intern.php';
           break;
+	  case '/interns/myslackusername' :
+          require __DIR__ . '/views/myslackusername.php';
+          Break;
+
       default:
           require __DIR__ . '/views/404.php';
           break;
